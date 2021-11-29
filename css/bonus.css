@@ -1,0 +1,52 @@
+@media screen and (max-width: 760px) {
+    #lezioni .row {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        background-color: #f2f2cd;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        float: none;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #steps .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 80%;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #why .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        background-color: #f2f2cd;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 80%;
+    }
+}
