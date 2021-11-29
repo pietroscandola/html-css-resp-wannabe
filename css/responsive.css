@@ -1,6 +1,7 @@
 @media screen and (max-width: 420px) {
     #lezioni .row {
         display: flex;
+        margin: 0;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
