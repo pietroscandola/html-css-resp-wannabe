@@ -1,9 +1,51 @@
-@media screen and (max-width:420px) {
+@media screen and (max-width: 420px) {
     #lezioni .row {
-        justify-content: center;
-        align-items: center;
+        display: flex;
         flex-direction: column;
-        background-color: #f2f2cd;
         flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        background-color: #f2f2cd;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        float: none;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #steps .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 80%;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #why .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        background-color: #f2f2cd;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 80%;
     }
 }
