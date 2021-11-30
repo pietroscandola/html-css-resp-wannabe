@@ -6,7 +6,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        width: 100vw;
+        width: 100%;
         background-color: #f2f2cd;
     }
     #lezioni .row>.left,
@@ -23,7 +23,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        width: 100vw;
+        width: 100%;
     }
     #steps .row>.left,
     #steps .row>.central,
@@ -41,7 +41,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        width: 100vw;
+        width: 100%;
         background-color: #f2f2cd;
     }
     #why .row>.first,
